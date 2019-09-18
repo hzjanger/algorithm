@@ -22,6 +22,12 @@ module.exports = {
         lastUpdated: '上次更新',
         sidebar: [
             {
+                title: '基础',
+                children: [
+                    '基础/位运算'
+                ]
+            },
+            {
                 title: '链表',
                 children: [
                     '链表/判断链表是否有环'
@@ -31,6 +37,18 @@ module.exports = {
                 title: '栈',
                 children: [
                     '栈/最小栈'
+                ]
+            },
+            {
+                title: '算法',
+                children: [
+                    '算法/最大公约数'
+                ]
+            },
+            {
+                title: '贪心算法',
+                children: [
+                    '贪心算法/移掉k个数字'
                 ]
             }
         ]
